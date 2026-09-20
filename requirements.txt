@@ -1,0 +1,4 @@
+pygame
+scipy
+requests
+python-dotenv
