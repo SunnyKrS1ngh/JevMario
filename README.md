@@ -2,7 +2,6 @@
 
 An autonomous AI agent playing Super Mario in Python, powered by **Jev** (System One decision model) via the OpenRouter Decisions API.
 
-Based on the [super-mario-python](https://github.com/mx0c/super-mario-python) engine, enhanced with a real-time observation pipeline, async decision loop, and continuous momentum action executor.
 
 ---
 
@@ -95,9 +94,3 @@ python main.py
 - **`ai/executor.py`**: Translates AI choices into directional movement and jump traits with momentum preservation.
 - **`ai/controller.py`**: Manages the asynchronous loop, background threading, and decision pre-fetching.
 - **`ai/logger.py`**: JSONL structured decision logging for offline evaluation.
-
----
-
-## License
-
-MIT License. Inspired by [super-mario-python](https://github.com/mx0c/super-mario-python) and [meth-meth-method](https://github.com/meth-meth-method/super-mario/).
