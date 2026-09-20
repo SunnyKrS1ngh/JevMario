@@ -1,4 +1,4 @@
-# JevMario 🍄🎮
+# JevMario
 
 An autonomous AI agent playing Super Mario in Python, powered by **Jev** (System One decision model) via the OpenRouter Decisions API.
 
